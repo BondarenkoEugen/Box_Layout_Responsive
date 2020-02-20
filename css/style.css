@@ -201,6 +201,7 @@ body {
   border: none;
   margin-right: 10px;
   text-align: center;
+  outline: none;
 }
 
 .form-input_wide {
