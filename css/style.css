@@ -171,6 +171,7 @@ body {
   font-size: 14px;
   padding-right: 25px;
   padding-left: 25px;
+  outline: none;
 }
 
 .button:hover {
@@ -569,3 +570,5 @@ body {
   color: #373737;
   margin-right: 12px;
 }
+
+
