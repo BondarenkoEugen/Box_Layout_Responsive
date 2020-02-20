@@ -1,0 +1,196 @@
+@import "button";
+@import "modal";
+@import "media";
+body
+	font-family: 'Roboto'
+
+.header
+	padding-top: 25px
+	padding-bottom: 10px
+	display: flex
+	max-width: 1200px
+	margin:  auto 
+	text-align: center
+	justify-content: space-between
+	align-items: center
+	&-logo
+		margin-left: 40px
+		background-size: 100%
+		width: 191px
+		height: 61px
+		background: url(../img/header_logo.png) center no-repeat
+	&_contacts
+		display: flex
+		flex-basis: 50%
+		flex-direction: column
+		flex-wrap: wrap
+		justify-content: center
+		align-items: center 
+		align-content: flex-end
+		height: 61px
+		margin-right: 40px
+		&_nums
+			font-size: 17px
+			margin-right: 10px
+
+.main
+	position: relative
+	margin-top: 20px
+	padding: 50px 
+	display: flex
+	justify-content: center
+	align-items: center
+	background: #151515 url(../img/topBG.png) center no-repeat
+	background-size: cover
+	color: white
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		left: 0 
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0, 0, 0, 0.6)
+	&-img
+		width: 40%
+		margin-right: 30px
+		z-index: 1
+	&-content
+		z-index: 1
+		&-title
+			font-size: 32px
+			font-weight: 700
+			line-height: 35px 
+			margin-bottom: 10px
+		&-subtitle
+			font-size: 24px 
+			font-weight: 300
+			line-height: 21px 
+			margin-bottom: 24px
+		&-text
+			max-width: 421px
+			font-size: 16px
+			font-weight: 300
+			line-height: 27px 
+			margin-bottom: 20px
+			&_spec
+				text-transform: uppercase
+				font-weight: 700
+
+.wrap
+	padding: 15px
+	background-color: rgba(255, 255, 255, 0.1)
+
+.small-text
+	font-size: 14px
+	font-weight: 300
+	line-height: 30px
+
+
+.advantages
+	margin: auto
+	max-width: 1000px
+	display: flex
+	justify-content: space-around
+	text-align: center
+	padding-top: 50px
+	flex-flow: row wrap
+	
+	
+.advantage
+	width: 30%
+	min-width: 254px
+	font-size: 15px
+	font-weight: 400
+	line-height: 20px
+	p
+		color: #f39003
+		font-size: 29px
+		font-weight: 900
+		margin-bottom: 15px
+	span
+		font-size: 31px
+		font-weight: 900
+		text-transform: uppercase
+	sup
+		vertical-align: super
+		font-size: smaller
+.invisible
+	color:#f4f4f4
+
+.features
+	margin: auto
+	max-width: 1000px
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap
+	margin-top: 27px
+	padding-bottom: 30px
+	
+
+
+.feature
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 30%
+	padding: 15px 3px
+	background-color: #ffff
+	margin-bottom: 20px
+	margin-top: 15px
+	&-title
+		font-size: 15px
+		font-weight: 700
+		margin-bottom: 5px
+	&-subtitle
+		font-size: 14px
+		font-weight: 300
+		line-height: 19px
+	&-img
+		margin-right: 10px
+
+.content
+	background-color: #f4f4f4
+
+
+.production
+	text-align: center
+	margin-top: 57px
+	&-title
+		font-size: 27px
+		font-weight: 700
+		line-height: 18px
+		text-transform: uppercase
+		margin-bottom: 21px
+	&-wrap
+		margin: auto
+		flex-wrap: wrap
+		display: flex
+		max-width: 1100px
+		justify-content: space-around
+
+.prod
+	width: 40%
+	margin: auto
+	margin-bottom: 25px
+	&-name
+		font-size: 18px
+		font-weight: 500
+		line-height: 19.94px
+		margin-top: 19px
+		margin-bottom: 28px
+	&-img
+		width: 100%
+	
+
+.button-white
+	background-color: inherit
+	border: solid 1px #9b9b9b
+	color: #373737
+	margin-right: 12px
+
+
+
+
+

@@ -1,0 +1,387 @@
+
+
+@media screen and (max-width: 400px){
+	.header_contacts_nums {
+	 font-size: 15px;
+	}
+	.main-content-title{
+		font-size: 26px;
+	}
+	.main-content-text{
+		font-size: 16px;
+	}
+	.main-content-subtitle{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.offer-title{
+		font-size: 26px;
+	}
+	.offer-subtitle{
+		font-size: 17px;
+	}
+	.offer-label{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.wrap {
+	 padding: 15px;
+	 background-color: transparent;
+	}
+	.main-content-title{
+		color: #ff9d00;
+	}
+	.form-input{
+		width: 67%;
+		margin-right: 0px;
+	}
+	.button_spec{
+		margin-top: 12px;
+		width: 50%;
+		min-width: 198px
+	}
+	.main{
+		padding: 50px 10px;
+	}
+	.header-logo{
+		margin-left: 20px;
+	}
+	.header_contacts{
+		margin-right: 20px;
+	}
+	.button_offer{
+		font-size: 15px;
+	}
+	.popup{
+		width: 87%
+	}
+	.popup-form-title{
+		font-size: 26px;
+		margin-top: 8px;
+	}
+	.popup-form-subtitle{
+		font-size: 20px;
+		line-height: 45px;
+	}
+	.label{
+		font-size: 17px;
+		margin-top: 50px;
+	}
+	.popup-input{
+		padding: 15px 0;
+	}
+	.popup-button{
+		padding: 15px 0;
+	}
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+	.feature{
+		width: 45%;
+	}
+	.button-prod, .button-white{
+		padding-right: 10px;
+  padding-left: 10px;
+	}
+	.map {
+  font-size: 18px;
+  line-height: 21px;
+	}
+	.map-title {
+  font-size: 22px;
+ }
+ .factory-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+ }
+ .factory-subtitle {
+  line-height: 1.4;
+  font-size: 14px;
+	}
+	.popup-form-title{
+		font-size: 29px
+	}
+	.popup-form-subtitle{
+		font-size: 24px;
+	}
+	.label{
+		font-size: 18px;
+	}
+	.popup-input{
+		width: 49%;
+		max-width: 300px;
+	}
+	.popup-button{
+		width: 37%;
+	}
+
+}
+
+@media screen and (max-width: 767px){
+		.header-logo{
+			background: url(../img/logo-mob.svg) center no-repeat;
+			width: 46px;
+			height: 46px;
+			margin-left: 3%;
+		} 
+		.header_contacts{
+			margin-right: 3%;
+		}
+		.main{
+			margin-top: 0px;
+		}
+		.m-hide{
+			display: none;
+		}
+		.main-content{
+			text-align: center;
+		}
+		.main-content-text{
+			max-width: 100%;
+		}
+		.button_spec {
+   padding: 20px 40px;
+		}
+		.main-content-text{
+			font-size: 19px;
+		}
+		.advantage{
+			padding-bottom: 4px;
+   padding-top: 4px;
+		}
+		.advantages{
+			padding-top: 15px;
+		}
+		.contact-wrap{
+			position: static;
+			text-align: center;
+		}
+		.map-mail{
+			justify-content: center;
+		}
+		.map-phone{
+			justify-content: center;
+		}
+		.map-address{
+			justify-content: center;
+		}
+		.map-img{
+			display: none;
+		}
+		.map_button {
+   margin-left: 0;
+		}
+
+	}
+
+@media screen and (min-width: 768px){
+	.header_contacts_nums {
+	 	font-size: 22px;   
+		}
+}
+
+@media screen and (min-width: 768px) and (max-width: 818px){
+		.form-input {
+		    padding: 20px 12px;
+		}
+		.button_spec {
+		    padding: 20px 12px;
+		}
+	}
+
+
+@media screen and (min-width: 900px){
+			 .header_contacts{
+					flex-direction: row;
+					flex-basis: auto;
+				} 
+				.slash{
+					border-right: solid 2px #e2e2e3;
+					padding-right: 10px;
+				}
+
+				.wrap{
+					padding: 30px;
+				}
+				.advantage{
+					font-size: 16px;
+				}
+				.advantage p{
+					font-size: 36px;
+				}
+				.advantage span{
+					font-size: 36px;
+				}
+				.prod-name {
+    	font-size: 20px;
+				}
+				
+			}
+
+@media screen and (max-width: 1000px){
+	.feature-title{
+		font-size: 14px;
+	}
+	.feature-subtitle{
+		font-size: 13px;
+	}
+	.sl{
+		width: 55%;
+	}
+	.factory-text{
+		width: 45%;
+	}
+	.slider {
+  margin: auto;
+	}
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+		.main-content-title{
+		font-size: 38px;
+		line-height: 42px  ; 
+	}
+		.main-content-subtitle{
+		font-size: 27px;
+		line-height: 42px;
+	}
+		.main-content-text{
+		font-size: 19px;
+		line-height: 30px;
+	}
+	.main-content{
+			max-width: 500px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+		.main-img{
+				width: 480px;
+				height: 378px;
+			 
+			}
+
+		.main-text{
+
+		}
+
+		.main-content{
+				max-width: 600px;
+		}
+		.main-content-title{
+		font-size: 41px;
+		line-height: 42px  ;
+	}
+		.main-content-subtitle{
+		font-size: 28px;
+		line-height: 42px;
+	}
+		.main-content-text{
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.header-button_text{
+		display: none;
+	}
+	.header-button{
+		padding: 8px;
+	}
+	.header-phone{
+		width: 16px; 
+		height: 16px;
+	}
+	.advantage{
+		width: 100%;
+	}
+	.feature{
+		width: 92%;
+	}
+	.prod{
+		width: 100%;
+	}
+	.prod-img{
+		width: 70%;
+	}
+	.sl{
+		width: 100%;
+		order: 0;
+	}
+	.factory-text{
+		width: 100%;
+		padding-top: 50px;
+	}
+	.factory-title{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 21px;
+	}
+	.factory-subtitle{
+		padding-left: 3%;
+		padding-right: 3%;
+		font-size: 15px;
+		text-align: center;
+	}
+	.slider-nav{
+		display: none;
+	}
+	.slider{
+		width: 90%;
+	}
+	.factory {
+  padding-top: 0px;
+	}
+	.popup-input{
+		width: 49%;
+		max-width: 300px;
+	}
+	.popup-button{
+		width: 37%;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+	.header_contacts_nums {
+	 font-size: 15px;
+	}
+	.main-content-title{
+		font-size: 26px;
+	}
+	.main-content-text{
+		font-size: 16px;
+	}
+	.main-content-subtitle{
+		font-size: 20px;
+	}
+	.popup-title{
+		font-size: 21px;
+	}
+	.popup-form-title{
+		font-size: 21px;
+		line-height: 26px;
+		margin-top: 8px;
+	}
+	.popup-form-subtitle{
+		font-size: 15px;
+		line-height: 32px;
+	}
+	.label{
+		font-size: 14px;
+		margin-top: 36px;
+	}
+	.popup-input{
+		width: 90%;
+		margin-bottom: 10px;
+	}
+}

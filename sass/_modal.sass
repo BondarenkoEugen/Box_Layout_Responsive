@@ -1,0 +1,57 @@
+.overlay
+	position: fixed
+	display: none
+	top: 0 
+	width: 100%
+	height: 100%
+	z-index: 3
+	background-color: rgba(0, 0, 0, 0.5)
+	color: white
+.popup
+	display: flex
+	position: fixed
+	left: 50%
+	top: 100px
+	max-width: 752px
+	width: 92%
+	transform: translateX(-50%)
+	flex-direction: column
+	text-align: center
+	&-close
+		position: absolute
+		font-size: 35px
+		color: #fff
+		right: -20px
+		top: -30px
+		cursor: pointer
+	&-title
+		width: 100%
+		background-color: #ff9d00
+		font-size: 25px
+		font-weight: 500
+		display: flex
+		justify-content: center
+		height: 70px
+		align-items: center
+	
+	&-form
+		display: flex
+		background: #151515 url(../img/popupBG.png) center no-repeat
+		flex-direction: column
+		height: 300px
+		&-title
+			font-size: 32px
+			font-weight: 500
+			line-height: 35px
+			margin-top: 15px
+		&-subtitle
+			font-size: 26px
+			font-weight: 300
+			line-height: 35px
+			margin: 0
+
+.label
+	margin-top: 55px
+	font-size: 20px
+	font-weight: 300
+	line-height: 30px
