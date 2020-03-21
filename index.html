@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/zmedia.css">
+	<link rel="stylesheet" href="css/ymap.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap&subset=cyrillic" rel="stylesheet">
-	<script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
 	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
 </head>
@@ -296,36 +296,39 @@
 
 <div class="map">
 
-	<div class="contact-wrap">
-		<div class="map-address">
-			<div class="map-img"><img src="img/map-target.png" alt=""></div>
-			<p>
-				<span class="map-title">Адрес офиса</span><br>
-				г. Уфа, Проспект октября, 46 <br>
-				<span class="map-title">Адрес склада</span><br>
-				г. Уфа, ул. Майкопская, 65/2
-			</p>
-		</div>
-		<div class="map-phone">
-			<div class="map-img"><img src="img/Layer_38_copy_2.png" alt=""></div>
-			<p>
-				<span class="map-title">Тел. отдела продаж:</span><br>
-				8 (347) 271-54-28 <br>
-				8 (937) 363-30-00
-			</p>
-		</div>
-		<button class="button map_button">Заказать звонок</button>
-		<div class="map-mail">
-			<div class="map-img"><img src="img/mail.png" alt=""></div>
-			<p>
-				<span class="map-title">Е-mail</span><br>
-				urals.karton@gmail.com
-			</p>
-		</div>
+<!-- 	<div class="contact-wrap">
+	<div class="map-address">
+		<div class="map-img"><img src="img/map-target.png" alt=""></div>
+		<p>
+			<span class="map-title">Адрес офиса</span><br>
+			г. Уфа, Проспект октября, 46 <br>
+			<span class="map-title">Адрес склада</span><br>
+			г. Уфа, ул. Майкопская, 65/2
+		</p>
 	</div>
+	<div class="map-phone">
+		<div class="map-img"><img src="img/Layer_38_copy_2.png" alt=""></div>
+		<p>
+			<span class="map-title">Тел. отдела продаж:</span><br>
+			8 (347) 271-54-28 <br>
+			8 (937) 363-30-00
+		</p>
+	</div>
+	<button class="button map_button">Заказать звонок</button>
+	<div class="map-mail">
+		<div class="map-img"><img src="img/mail.png" alt=""></div>
+		<p>
+			<span class="map-title">Е-mail</span><br>
+			urals.karton@gmail.com
+		</p>
+	</div>
+</div> -->
 
-		<script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8b2ababc30c4c427f0b36e7042bace02dde37cf54f00d5660db7c5cb621bdcac&amp;width=100%25&amp;height=550&amp;lang=uk_UA&amp;scroll=false"></script>
-
+		
+<div class="ymap-container">
+    <div class="loader loader-default"></div>
+    <div id="map-yandex"></div>
+</div><!-- .ymap-container -->
 
 </div>
 
@@ -347,5 +350,6 @@
  <script src="slick-1.8.1/slick/slick.min.js"></script>
 
 	<script src="js/slider.js">	</script>
+	<script src="js/ymap.js"></script>
 </body>
 </html>
